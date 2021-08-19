@@ -1,0 +1,103 @@
+.hamburger {
+    width: 50px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pink-background {
+    background-color: rgb(255, 199, 252);
+    }
+
+.lila-background {
+    background-color: rgb(225, 199, 255);
+    }
+
+.blauw-background {
+    background-color: rgb(193, 227, 255);
+    }
+
+.perzik-background {
+    background-color: rgb(255, 220, 168);
+    }
+
+.geel-background {
+    background-color: rgb(255, 249, 199);
+    }
+            
+.hamburgermenu {
+    background-image: url(img/1598355306_hamburger_menu.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.hamburgermenu:hover {
+    opacity: 0.5;
+}
+
+.nav #menu {
+    display: none;
+}
+
+#text {
+    margin-left: 400px;
+    font-size: 3em;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 15px;;
+    text-decoration: none;
+    padding-left: 0px;
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+    width: 90px;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: width 2s;
+
+}
+li:hover {
+    opacity: 0.5;
+    width: 130px;
+}
+
+
+ul {
+    margin : 0;
+    padding : 10px;
+    list-style : none;  
+    display: block;
+}
+
+#roze {
+    background-color:rgb(255, 199, 252);
+}
+#blauw {
+    background-color:rgb(193, 227, 255);
+}
+
+#lila {
+    background-color:rgb(225, 199, 255);
+}
+
+#geel {
+    background-color:rgb(255, 249, 199)
+}
+#perzik {
+    background-color:rgb(255, 220, 168)
+}
+
+#roze:hover {
+    opacity: 0.8;
+}
+
+
